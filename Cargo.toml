@@ -1,0 +1,25 @@
+[package]
+name = "resolver_types"
+description = "Abstract types that allow to switch between multiple DNS resolver implementations"
+keywords = [ "dns", "client", "resolve", "cache" ]
+categories = [ "api-bindings", "web-programming" ]
+
+version = "0.1.0"
+edition = "2021"
+
+repository = "https://github.com/dns2utf8/resolver_types"
+documentation = "https://docs.rs/resolver_types/"
+readme = "README.md"
+
+authors = [ "Stefan Schindler <dns2utf8@estada.ch>" ]
+license = "AGPL-3.0-only"
+
+include = [
+    "src/**",
+    "README.md",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-trait = "0.1.52"
