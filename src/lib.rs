@@ -1,5 +1,5 @@
 //! This crate allows the abstratction of DNS resolvers such as
-//! trust-dns-resolver or `GaiResolver` from hyper
+//! `trust-dns-resolver` or `GaiResolver` from hyper
 //!
 
 use async_trait::async_trait;
